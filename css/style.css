@@ -129,6 +129,13 @@ header{
 	display:inline-block;
 }
 
+#googleMap{
+	width:300px;
+	height:200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 @media screen and (max-width: 900px){
 	.conteneur{
 		width:100%;
@@ -186,4 +193,46 @@ header{
 	form{
 		padding:0 1em;
 	}
+
+	#menuDiv{
+		margin-right: auto;
+		margin-left: auto;
+		display:block;
+	}
+
+	#menu_horizontal{
+		display:block;
+		padding:0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.mini{
+		display:inline-block;
+		width: 100%;
+		text-align: center;
+		margin:0;
+	}
+
+	#map{
+	width:100%;
+	}
+
+	#form{
+		width:100%;
+	}
+
+	input{
+		width:100%;
+	}
+
+	#menuDiv{
+		display:none;
+	}
+
+	#search{
+		display:none;
+	}
+
 }
